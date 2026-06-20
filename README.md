@@ -105,7 +105,9 @@ This project aims to detect cyberbullying and offensive content on social media 
 - Streamlit UI Development
 - Final Project Integration
 
-- Vivek Choudhary
+-
+- Author
+-  Vivek Choudhary
 B.Tech CSE (Cyber Security)
 Graphic Era Deemed to be University
 
@@ -129,6 +131,6 @@ Have a nice day
 Output:
 
 Non-Cyberbullying
-Author
+
 
 
