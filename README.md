@@ -2,36 +2,37 @@
 
 ## Overview
 
-This project aims to detect cyberbullying and offensive content on social media platforms using Natural Language Processing (NLP) and Machine Learning techniques. The system analyzes user comments and classifies them as bullying or non-bullying based on a trained machine learning model.
+This project aims to detect cyberbullying and offensive content on social media platforms using Natural Language Processing (NLP) and Machine Learning techniques. The system analyzes user comments and classifies them as bullying or non-bullying using a trained machine learning model.
 
 ---
 
 ## Objectives
 
-* Detect harmful and offensive comments.
-* Apply NLP techniques for text preprocessing.
-* Train a machine learning model for text classification.
-* Provide a user-friendly interface for testing comments.
+- Detect harmful and offensive comments.
+- Clean and preprocess social media text.
+- Apply NLP techniques for feature extraction.
+- Train a machine learning model for classification.
+- Develop a simple user interface for prediction.
 
 ---
 
 ## Dataset
 
-* Social media comments dataset
-* Approximately 27,000 records
-* Contains comment text and corresponding class labels
+- Social Media Comments Dataset
+- Approximately 27,000 records
+- Contains comment text and class labels
 
 ---
 
 ## Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Regex
-* NLTK
-* Scikit-Learn
-* Streamlit
+- Python
+- Pandas
+- NumPy
+- Regular Expressions (Regex)
+- NLTK
+- Scikit-Learn
+- Streamlit
 
 ---
 
@@ -41,92 +42,91 @@ This project aims to detect cyberbullying and offensive content on social media 
 2. Data Exploration
 3. Data Cleaning
 4. Text Preprocessing
-5. Feature Extraction (TF-IDF)
+5. Feature Extraction
 6. Machine Learning Model Training
 7. Model Evaluation
 8. User Interface Development
-9. Prediction System
 
 ---
 
 ## Current Progress
 
-### Week 1 Completed
+### Week 1 - Dataset Exploration
 
-* Project topic finalized
-* Dataset collected
-* Dataset loaded using Pandas
-* Dataset exploration completed
-* DataFrame and Series operations performed
-* Column selection completed
-* Dataset columns renamed for better readability
-* Basic dataset analysis completed using:
+- Dataset collected and loaded
+- DataFrame exploration completed
+- Column selection performed
+- Column renaming completed
+- Dataset structure analyzed using:
+  - head()
+  - tail()
+  - shape
+  - info()
+  - describe()
 
-  * read_csv()
-  * head()
-  * tail()
-  * shape
-  * columns
-  * info()
-  * describe()
+### Week 2 - Data Cleaning
 
-### Week 2 Completed
+- Missing value analysis completed
+- Missing values removed
+- Duplicate records detected and removed
+- Dataset validation completed
+- Clean dataset generated
 
-* Missing value analysis performed
-* Missing values removed from dataset
-* Duplicate record detection completed
-* Duplicate records removed
-* Class distribution analysis completed
-* Dataset validation performed
-* Cleaned dataset generated and saved for further processing
+### Week 3 - Text Preprocessing
+
+- Regex-based text cleaning implemented
+- Converted text to lowercase
+- Removed URLs
+- Removed punctuation
+- Removed numbers
+- Removed extra spaces
+- Tokenization implemented using NLTK
+- Stopword removal completed
+- Preprocessed dataset generated and saved
 
 ---
 
 ## Upcoming Work
 
-### Week 3
+### Week 4
 
-* Regex-based text preprocessing
-* Lowercase conversion
-* URL removal
-* Punctuation removal
-* Number removal
-* Extra space removal
-* Tokenization
-* Stopword removal
+- Lemmatization
+- TF-IDF Feature Extraction
+- Train-Test Split
+- Logistic Regression Model Training
 
-### Future Phases
+### Week 5
 
-* Lemmatization
-* TF-IDF implementation
-* Train-Test Split
-* Logistic Regression model training
-* Model evaluation
-* Model saving using Pickle
-* Streamlit UI development
-* Final project deployment
+- Model Evaluation
+- Accuracy Score
+- Precision, Recall, F1 Score
+- Confusion Matrix
+- Model Saving using Pickle
+- Streamlit UI Development
+- Final Project Integration
 
 ---
 
 ## Expected Output
 
-The system will classify a given social media comment as:
-
-* Cyberbullying
-* Non-Cyberbullying
-
-Example:
-
 Input:
-"You are stupid and useless"
+
+```text
+You are stupid and useless
 
 Output:
-"Cyberbullying Detected"
 
----
+Cyberbullying Detected
 
-## Author
+Input:
 
-**Vivek Choudhary**
+Have a nice day
+
+Output:
+
+Non-Cyberbullying
+Author
+
+Vivek Choudhary
 B.Tech CSE (Cyber Security)
 Graphic Era Deemed to be University
