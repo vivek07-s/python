@@ -84,9 +84,7 @@ This project aims to detect cyberbullying and offensive content on social media 
 - Stopword removal completed
 - Preprocessed dataset generated and saved
 
----
 
-## Upcoming Work
 
 ### Week 4
 
@@ -94,6 +92,11 @@ This project aims to detect cyberbullying and offensive content on social media 
 - TF-IDF Feature Extraction
 - Train-Test Split
 - Logistic Regression Model Training
+
+
+---
+
+## Upcoming Work
 
 ### Week 5
 
